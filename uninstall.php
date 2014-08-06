@@ -2,7 +2,7 @@
 /**
  * Fired when the plugin is uninstalled.
  *
- * @package   Plugin_Name
+ * @package   Celsius
  * @author    Your Name <email@example.com>
  * @license   GPL-2.0+
  * @link      http://example.com
@@ -57,10 +57,16 @@ if ( is_multisite() ) {
 	}
 
 } else {
-	/* @TODO: delete all transient, options and files you may have added
-	delete_transient( 'TRANSIENT_NAME' );
-	delete_option('OPTION_NAME');
+	/* @TODO: delete all transient, options and files you may have added */
+	//delete_transient( 'TRANSIENT_NAME' );
+	//delete_option('OPTION_NAME');
+    // unregister settings
+    unregister_setting( 'celsius-group', 'celsius_enabled' );
+    unregister_setting( 'celsius-group', 'celsius_logged_in_only' );
+    unregister_setting( 'celsius-group', 'celsius_api_key' );
+    unregister_setting( 'celsius-group', 'celsius_account' );
 	//info: remove custom file directory for main site
+    /*
 	$upload_dir = wp_upload_dir();
 	$directory = $upload_dir['basedir'] . DIRECTORY_SEPARATOR . "CUSTOM_DIRECTORY_NAME" . DIRECTORY_SEPARATOR;
 	if (is_dir($directory)) {
