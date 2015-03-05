@@ -15,7 +15,7 @@
  * Plugin Name:       Celsius
  * Plugin URI:        https://github.com/jonnyvaughan/celsius
  * Description:       Plugin to enable snag reporting to Celsius.
- * Version:           0.14 
+ * Version:           0.15 
  * Author:            Jonny Vaughan
  * Author URI:        http://www.10degrees.uk
  * Text Domain:       celsius
