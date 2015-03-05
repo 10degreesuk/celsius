@@ -303,7 +303,7 @@ class Celsius {
 
         if($show_scripts==true) {
             
-            wp_register_script( $this->plugin_slug . '-plugin-script', '//10degrees.celsiusapp.com/js/snag.js', array( 'jquery' ), self::VERSION); 
+            wp_register_script( $this->plugin_slug . '-plugin-script', '//celsius.10degrees.uk/js/snag.js', array( 'jquery' ), self::VERSION); 
             wp_localize_script( $this->plugin_slug . '-plugin-script', 'celsius_api_key', get_option('celsius_api_key') );
             wp_localize_script( $this->plugin_slug . '-plugin-script', 'celsius_account', get_option('celsius_account') );
 
