@@ -13,7 +13,7 @@
  *
  * @wordpress-plugin
  * Plugin Name:       Celsius
- * Plugin URI:        https://github.com/10degreesuk/celsius
+ * Plugin URI:        https://github.com/jonnyvaughan/celsius
  * Description:       Plugin to enable snag reporting to Celsius.
  * Version:           0.14 
  * Author:            Jonny Vaughan
@@ -22,7 +22,7 @@
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Domain Path:       /languages
- * GitHub Plugin URI: https://github.com/10degreesuk/celsius
+ * GitHub Plugin URI: https://github.com/jonnyvaughan/celsius
  */
 
 // If this file is called directly, abort.
